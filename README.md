@@ -6,7 +6,7 @@ Reference: The program is a variation of an example by user "yurib" on Stack Ove
 The below is in progress..
 
 # Why is this program needed?:
-Information security practitioners and penetration testers generally test authentication systems by attempting to use default or previously compromised credentials.  Many wordlists found on the open Internet contain common passwords or those exposed in a separate breach.  Use of the wordlists provides the tester a means of knowing if weak or previously compromised passwords are used on the authentication system.  This program is useful for modifying such wordlists to remove duplicate items, unnecessary white space, or return only passwords of certain lengths.  This program was designed for processing extremely large wordlists (in gigabytes) sujbect to the host computer having enough RAM.
+This program is used to take extremly large files, that are large to process themselves, and split the file into much smaller segments that can be processed eaiser individually.  This process works well for raw data files, wordlists, or other file types where the contents can be seperated without impacting the larget data set.
 
 # Disclaimer:
 This program should only be used to test authentication systems for which you own or have been given permission to test.  Do not use this program to edit wordlists which you intend to use for committing a crime.
