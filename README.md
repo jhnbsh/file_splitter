@@ -3,8 +3,6 @@
 This program splits extremly large files (tested up to 150GB) into smaller ones by the specified number of lines. 
 Reference: The program is a variation of an example by user "yurib" on Stack Overfow at https://stackoverflow.com/questions/8096614/split-large-files-using-python.
 
-The below is in progress..
-
 # Why is this program needed?:
 This program is used to take extremly large files, that are large to process themselves, and split the file into much smaller segments that can be processed eaiser individually.  This process works well for raw data files, wordlists, or other file types where the contents can be seperated without impacting the larget data set.
 
